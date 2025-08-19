@@ -61,7 +61,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				academic: {
+					blue: 'hsl(var(--academic-blue))',
+					'blue-light': 'hsl(var(--academic-blue-light))',
+					teal: 'hsl(var(--academic-teal))',
+					success: 'hsl(var(--academic-success))',
+					warning: 'hsl(var(--academic-warning))'
 				}
+			},
+			backgroundImage: {
+				'gradient-academic': 'var(--gradient-academic)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'medium': 'var(--shadow-medium)',
+				'strong': 'var(--shadow-strong)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
